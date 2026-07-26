@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="38%" r="60%">
+      <stop offset="0%" stop-color="#285B67" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#285B67" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#FFFFFF"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <circle cx="565" cy="250" r="76" fill="none" stroke="#285B67" stroke-width="4"/>
+  <circle cx="655" cy="250" r="76" fill="none" stroke="#5C5C56" stroke-width="4" opacity="0.55"/>
+  <text x="600" y="420" font-family="Georgia,serif" font-size="60" font-weight="700" fill="#1C1C1A" text-anchor="middle">Vitae</text>
+  <text x="600" y="470" font-family="-apple-system,sans-serif" font-size="28" fill="#5C5C56" text-anchor="middle">Binaural Beats, Study Sounds</text>
+  <text x="600" y="560" font-family="-apple-system,sans-serif" font-size="20" fill="#8A8578" text-anchor="middle" letter-spacing="1">weissgerber.netlify.app/apps/vitae</text>
+</svg>

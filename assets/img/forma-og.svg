@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="38%" r="60%">
+      <stop offset="0%" stop-color="#F91919" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#F91919" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#FFFFFF"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <rect x="525" y="230" width="24" height="60" rx="4" fill="#F91919"/>
+  <rect x="565" y="190" width="24" height="100" rx="4" fill="#F91919" opacity="0.75"/>
+  <rect x="605" y="150" width="24" height="140" rx="4" fill="#F91919" opacity="0.5"/>
+  <rect x="645" y="210" width="24" height="80" rx="4" fill="#F91919" opacity="0.85"/>
+  <text x="600" y="400" font-family="Georgia,serif" font-size="56" font-weight="700" fill="#1C1C1A" text-anchor="middle">Forma</text>
+  <text x="600" y="450" font-family="-apple-system,sans-serif" font-size="28" fill="#5C5C56" text-anchor="middle">Muscle Recovery Tracker</text>
+  <text x="600" y="560" font-family="-apple-system,sans-serif" font-size="20" fill="#8A8578" text-anchor="middle" letter-spacing="1">weissgerber.netlify.app/apps/forma</text>
+</svg>
