@@ -29,6 +29,16 @@
   status = 200
 
 [[redirects]]
+  from = "/best-study-apps"
+  to = "/apps/vitae-best-study-apps.html"
+  status = 200
+
+[[redirects]]
+  from = "/vitae-vs-brain-fm"
+  to = "/apps/vitae-vs-brain-fm.html"
+  status = 200
+
+[[redirects]]
   from = "/apps/travelbudget"
   to = "/apps/travelbudget.html"
   status = 200

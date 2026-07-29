@@ -20,6 +20,14 @@
       "destination": "/apps/vitae-privacy.html"
     },
     {
+      "source": "/best-study-apps",
+      "destination": "/apps/vitae-best-study-apps.html"
+    },
+    {
+      "source": "/vitae-vs-brain-fm",
+      "destination": "/apps/vitae-vs-brain-fm.html"
+    },
+    {
       "source": "/apps/travelbudget",
       "destination": "/apps/travelbudget.html"
     },
