@@ -16,6 +16,10 @@
       "destination": "/apps/vitae.html"
     },
     {
+      "source": "/apps/vitae/privacy",
+      "destination": "/apps/vitae-privacy.html"
+    },
+    {
       "source": "/apps/travelbudget",
       "destination": "/apps/travelbudget.html"
     },

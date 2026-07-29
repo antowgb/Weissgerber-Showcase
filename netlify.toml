@@ -24,6 +24,11 @@
   status = 200
 
 [[redirects]]
+  from = "/apps/vitae/privacy"
+  to = "/apps/vitae-privacy.html"
+  status = 200
+
+[[redirects]]
   from = "/apps/travelbudget"
   to = "/apps/travelbudget.html"
   status = 200
