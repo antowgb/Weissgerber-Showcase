@@ -3,23 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vitae: Study Focus Timer for Students</title>
-  <meta name="description" content="Enter focus mode in seconds. Guided study sessions, a built-in Pomodoro timer, and binaural beats designed to help students start and finish focused study sessions.">
-  <meta name="keywords" content="study focus app, study timer, pomodoro, concentration, binaural beats, exam revision">
+  <title>Vitae: Study Planner and Focus Sessions for Students</title>
+  <meta name="description" content="Vitae plans your study week around your exams, your schedule and your goals, then tells you which session to start next. Guided focus sessions, Pomodoro, ambient sound. iOS, offline, one-time purchase.">
+  <meta name="keywords" content="study planner, study app for students, exam preparation app, focus sessions, pomodoro timer, study schedule">
   <meta name="author" content="Antonin Weissgerber">
   <meta name="theme-color" content="#285B67">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Vitae — Study Focus Timer for Students">
-  <meta property="og:description" content="The focus app designed for students who want to start and complete better study sessions.">
+  <meta property="og:title" content="Vitae — Study Planner and Focus Sessions">
+  <meta property="og:description" content="Never wonder what to study next. Vitae builds your study week from your exams, schedule and goals, then starts the session for you.">
   <meta property="og:url" content="https://weissgerber.netlify.app/apps/vitae">
   <meta property="og:image" content="https://weissgerber.netlify.app/assets/img/vitae-og.png">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Vitae — Study Focus Timer for Students">
-  <meta name="twitter:description" content="The focus app designed for students who want to start and complete better study sessions.">
+  <meta name="twitter:title" content="Vitae — Study Planner and Focus Sessions">
+  <meta name="twitter:description" content="Never wonder what to study next. Vitae builds your study week from your exams, schedule and goals, then starts the session for you.">
   <meta name="twitter:image" content="https://weissgerber.netlify.app/assets/img/vitae-og.png">
 
   <!-- Canonical -->
@@ -36,27 +36,37 @@
   {
     "@context": "https://schema.org",
     "@type": "MobileApplication",
-    "name": "Vitae: Binaural Beats, Study Sounds",
-    "url": "https://apps.apple.com/us/app/binaural-beats-study-sounds/id6752669220",
-    "description": "Vitae uses scientifically-backed binaural beat frequencies to guide your brain into states of deep concentration and learning. Includes Pomodoro timer, ambient sounds, and works fully offline.",
-    "applicationCategory": "Productivity",
-    "operatingSystem": "iOS",
+    "name": "Vitae",
+    "alternateName": "Vitae: Study Planner & Focus Sessions",
+    "url": "https://apps.apple.com/app/id6752669220",
+    "description": "Vitae is a study planner with focus sessions built in. It schedules your study week from the subjects, exams and availability you enter, recommends which session to start next and tells you why, then runs that session with a Pomodoro timer, ambient sound and optional binaural audio. Works offline. One-time purchase, no subscription.",
+    "applicationCategory": "EducationalApplication",
+    "applicationSubCategory": "Productivity",
+    "featureList": [
+      "Study planner with a weekly schedule",
+      "Exam mode with target hours and days remaining",
+      "Session recommendation based on exams, schedule and goals",
+      "Guided focus sessions",
+      "Pomodoro timer",
+      "Ambient sounds",
+      "Binaural audio",
+      "Subject management",
+      "Progress tracking and streaks",
+      "Fully offline"
+    ],
+    "operatingSystem": "iOS 15.1 or later",
     "inLanguage": ["en", "fr"],
     "author": {
       "@type": "Person",
       "name": "Antonin Weissgerber",
       "url": "https://weissgerber.netlify.app"
     },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5.0",
-      "ratingCount": "4"
-    },
     "offers": {
       "@type": "Offer",
       "price": "0",
       "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock"
+      "availability": "https://schema.org/InStock",
+      "description": "Free download with an optional one-time lifetime Premium unlock. No subscription."
     }
   }
   </script>
@@ -87,50 +97,58 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "What are binaural beats?",
+        "name": "How does Vitae decide what to recommend?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Binaural beats happen when you listen to two slightly different frequencies, one in each ear, through headphones. Your brain perceives a third tone from the difference between them. That perceived tone is the binaural beat."
+          "text": "It follows a fixed set of rules, in order of priority: an exam coming up in the next ten days that still has hours left against its target, then a study block you planned for today that hasn't started, then your weekly session goal if you're behind, then the subject you've studied least this week, then your usual study habit. The card always shows which rule it used, so you can see the reasoning rather than trust it blindly."
         }
       },
       {
         "@type": "Question",
-        "name": "Do binaural beats actually work?",
+        "name": "Does Vitae use AI?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Binaural beats work as part of a focus routine for many people, similar to how ambient noise or music helps concentration. Research findings vary by study design, and we don't claim they're a medical treatment for any condition. What we do claim: a consistent pre-study ritual, structured sessions, and a distraction-free environment measurably help people start and stay focused."
+          "text": "No. Nothing is sent to a model and nothing is predicted. The recommendation is a short list of rules applied to data you entered yourself: your subjects, your exams, your availability and your session history. That is also why it works with no connection."
         }
       },
       {
         "@type": "Question",
-        "name": "Do I need headphones for binaural beats to work?",
+        "name": "Do I have to plan my whole week by hand?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. Binaural beats rely on each ear receiving a different frequency. Without headphones, both ears hear the same mixed signal and the effect does not occur."
+          "text": "No. During setup you pick your subjects, add any exams, select the days and time range when you can study, and choose a usual session length. Vitae places study blocks in your week from that. You can edit, move or delete any block afterwards, add blocks manually, or regenerate the week."
         }
       },
       {
         "@type": "Question",
-        "name": "What's the difference between alpha and theta waves in Vitae?",
+        "name": "How does Exam Mode work?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Alpha frequencies are generally associated with a calm, alert state, useful for steady focus and routine work. Theta frequencies are associated with a deeper, more relaxed state, often used for extended study sessions or memory focused work. Vitae lets you choose based on what you are doing."
+          "text": "You add an exam with its date, a subject and a target number of study hours. Vitae then shows days remaining, hours studied so far, hours left and the daily target needed to reach your goal. Exams within ten days take priority in the session recommendation."
         }
       },
       {
         "@type": "Question",
-        "name": "How long should I listen in one session?",
+        "name": "Is the planner behind the paywall?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "There is no fixed rule. Many users listen for the length of a study or work session, often paired with the built in Pomodoro timer, anywhere from 25 minutes to a couple of hours."
+          "text": "No. The study planner, Exam Mode, the Pomodoro timer and unlimited subjects are free for everyone. Premium is about the session library and the audio around it, not about the planning."
         }
       },
       {
         "@type": "Question",
-        "name": "Can binaural beats help with ADHD or trouble focusing?",
+        "name": "What does Premium unlock?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Some people with attention difficulties report that binaural beats or similar background audio help them settle into a task. This is anecdotal rather than a clinical claim. Vitae is not a medical device and does not treat ADHD or any other condition."
+          "text": "The full guided session library (three sessions are free), unlimited custom sessions (two are free), every ambient sound (the first three are free), the two premium themes, and the detailed progress statistics. It is a single one-time purchase for lifetime access, not a subscription."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need headphones?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Only for the binaural layer, which relies on each ear receiving a slightly different frequency. The planner, the sessions, the Pomodoro timer and the ambient sounds all work on a speaker."
         }
       },
       {
@@ -138,15 +156,15 @@
         "name": "Does Vitae work without an internet connection?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. All audio is generated and stored locally on your device once the app is installed. No connection is required to use it."
+          "text": "Yes. Audio is bundled with the app, your plan and statistics are stored on your device, and session reminders are local notifications. A connection is only needed to buy or restore Premium, and to send anonymous usage analytics."
         }
       },
       {
         "@type": "Question",
-        "name": "Is Vitae safe to use every day?",
+        "name": "What languages does Vitae support?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Binaural beats through headphones at a reasonable, comfortable volume are generally considered safe for daily use. As with any headphone use, avoid high volumes for extended periods."
+          "text": "English and French. You can switch language in Settings and the change applies immediately."
         }
       }
     ]
@@ -174,52 +192,60 @@
     <section class="hero">
       <div class="container-sm hero-inner">
         <img class="app-icon-badge" src="/assets/img/icons/vitae.png" alt="Vitae app icon" width="72" height="72">
-        <h1>Enter study mode.</h1>
-        <p class="lede">Vitae turns the moment before you study into a ritual. Pick a session, press start, and get into focus, powered by binaural beats.</p>
+        <h1>Never wonder what to study next.</h1>
+        <p class="lede">Vitae is a study planner with focus sessions built in. It schedules your week around your exams, your availability and your goals, then opens on the one session you should start now.</p>
         <div class="app-meta is-centered">
+          <span class="meta-tag">Study planner + focus sessions</span>
           <span class="meta-tag">Free + lifetime unlock</span>
           <span class="meta-tag">iOS 15.1+</span>
           <span class="meta-tag">Works offline</span>
         </div>
-        <a href="https://apps.apple.com/us/app/binaural-beats-study-sounds/id6752669220" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Download on the App Store</a>
+        <a href="https://apps.apple.com/app/id6752669220" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Download on the App Store</a>
       </div>
     </section>
 
     <section class="container-sm">
-      <h2>Studying is easy to plan. Starting is the hard part.</h2>
-      <p>You open your laptop. You check a notification. Twenty minutes disappear. Vitae is the two-second action that gets you from "I should study" to actually studying.</p>
+      <h2>Deciding is the part that costs you the hour.</h2>
+      <p>You sit down knowing you have to work. Then comes the real question: which subject, for how long, and does it matter more than the other three. Ten minutes of that and the session is already half gone. Vitae answers the question before you ask it, and turns the start of a study session into something you do without negotiating with yourself.</p>
     </section>
 
     <section class="container-sm">
       <div class="how-it-works">
-        <h2>How a session works</h2>
+        <h2>How it works</h2>
         <div class="steps">
           <div class="step reveal">
             <div class="step-marker">1</div>
             <div class="step-content">
-              <h3>Choose your focus</h3>
-              <p>Alpha for calm, sustained concentration. Theta for deep study and memorization.</p>
+              <h3>Tell it what you're working with</h3>
+              <p>Your subjects, your exams and their dates, the days and hours you're actually free, and how long you usually study. Setup takes a couple of minutes.</p>
             </div>
           </div>
           <div class="step reveal">
             <div class="step-marker">2</div>
             <div class="step-content">
-              <h3>Add an ambient layer</h3>
-              <p>Rain, lo-fi, library ambience, or nature sounds, mixed underneath.</p>
+              <h3>Get a week you can look at</h3>
+              <p>Vitae places study blocks across your available slots and shows them in a weekly planner and a calendar. Everything stays editable: move a block, change its subject, delete it, or regenerate the week.</p>
             </div>
           </div>
           <div class="step reveal">
             <div class="step-marker">3</div>
             <div class="step-content">
-              <h3>Set your timer</h3>
-              <p>The built-in Pomodoro timer structures your work and break intervals.</p>
+              <h3>Open the app, get one answer</h3>
+              <p>The home screen recommends a subject, a duration and a timer mode, with the reason written underneath: an exam in six days, a block you planned for 14:00, a subject you haven't touched this week.</p>
             </div>
           </div>
           <div class="step reveal">
             <div class="step-marker">4</div>
             <div class="step-content">
-              <h3>Start</h3>
-              <p>One tap. You're in focus mode.</p>
+              <h3>Press start</h3>
+              <p>The session runs with a Pomodoro timer if you want one, ambient sound underneath, and binaural audio if you're wearing headphones. No further decisions to make.</p>
+            </div>
+          </div>
+          <div class="step reveal">
+            <div class="step-marker">5</div>
+            <div class="step-content">
+              <h3>Keep the rhythm</h3>
+              <p>Completed sessions count toward your weekly goal, feed your per-subject and per-exam progress, and build a streak. Missing a day changes what the app recommends tomorrow.</p>
             </div>
           </div>
         </div>
@@ -229,82 +255,113 @@
     <section class="container">
       <h2 class="text-center">See it in action</h2>
       <div class="screenshot-gallery mt-6 reveal">
-        <img src="/assets/img/screenshots/vitae-screenshot-1.png" alt="Vitae session screen showing Alpha wave selection and Pomodoro timer" width="200" height="433" loading="lazy">
-        <img src="/assets/img/screenshots/vitae-screenshot-2.png" alt="Vitae ambient sound mixer layering rain and lo-fi under the binaural tone" width="200" height="433" loading="lazy">
-        <img src="/assets/img/screenshots/vitae-screenshot-3.png" alt="Vitae preset library with saved frequency and ambient sound combinations" width="200" height="433" loading="lazy">
-        <img src="/assets/img/screenshots/vitae-screenshot-4.png" alt="Vitae settings screen with language and playback options" width="200" height="433" loading="lazy">
+        <img src="/assets/img/screenshots/vitae-screenshot-1.png" alt="Vitae home screen recommending a 90 minute Mathematics session because the Calculus midterm is in 6 days, above today's plan and the next exam" width="200" height="433" loading="lazy">
+        <img src="/assets/img/screenshots/vitae-screenshot-2.png" alt="Vitae Exam Mode listing three exams with days left, hours studied, hours left and the daily target needed to reach each goal" width="200" height="433" loading="lazy">
+        <img src="/assets/img/screenshots/vitae-screenshot-3.png" alt="Vitae session library filtered by exam, daily and recovery sessions, with the premium ones locked" width="200" height="433" loading="lazy">
+        <img src="/assets/img/screenshots/vitae-screenshot-4.png" alt="Vitae weekly planner showing Tuesday's study blocks for Mathematics, History and Biology, each with a start button" width="200" height="433" loading="lazy">
       </div>
     </section>
 
     <section class="container">
-      <h2 class="text-center">What's inside</h2>
+      <h2 class="text-center">What Vitae does</h2>
       <div class="grid grid-2 mt-6">
         <div class="card reveal">
-          <h3>Alpha waves, 8-14 Hz</h3>
-          <p>Calm, sustained concentration for reading, writing, or working through a problem without fatigue.</p>
+          <h3>Study planner</h3>
+          <p>A weekly schedule built from the days and hours you said you were free. Blocks carry a subject, a duration and a timer mode, and you can reshuffle any of it. Free for everyone.</p>
         </div>
         <div class="card reveal">
-          <h3>Theta waves, 4-8 Hz</h3>
-          <p>Deeper study and memorization, suited to intensive review and exam preparation.</p>
+          <h3>Exam mode</h3>
+          <p>Add an exam with a date and a target number of hours. You get days remaining, hours done, hours left, and the daily target that keeps you on schedule. Free for everyone.</p>
         </div>
         <div class="card reveal">
-          <h3>Built-in Pomodoro timer</h3>
-          <p>Configurable work and break intervals layered directly onto your listening session.</p>
+          <h3>The recommendation</h3>
+          <p>One session, chosen by a fixed order of priorities: near exams first, then today's planned block, then your weekly goal, then your least-studied subject, then your habit. The reason is always shown.</p>
         </div>
         <div class="card reveal">
-          <h3>Ambient layers</h3>
-          <p>Rain, lo-fi, library ambience, or nature sounds, mixed underneath the binaural tone.</p>
+          <h3>Guided focus sessions</h3>
+          <p>Multi-step sessions for different moments: study flow, exam focus, a sprint block, a recovery break between two long sessions. Three are free, the rest come with Premium.</p>
         </div>
         <div class="card reveal">
-          <h3>Presets you can save</h3>
-          <p>Configure a combination once, then return to it in one tap.</p>
+          <h3>Subjects and progress</h3>
+          <p>Group your work by subject, then see minutes per subject, sessions per week, recent sessions and how each exam is tracking against its target.</p>
         </div>
         <div class="card reveal">
-          <h3>Fully offline</h3>
-          <p>All audio is generated on-device. No streaming, no connection required.</p>
+          <h3>Streaks and weekly goal</h3>
+          <p>Set a number of sessions per week and keep a daily streak going. An optional local reminder nudges you at a time you choose, if you want one.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <h2 class="text-center">And the focus layer around it</h2>
+      <div class="grid grid-2 mt-6">
+        <div class="card reveal">
+          <h3>Pomodoro timer</h3>
+          <p>Focus blocks alternating with short breaks and a longer break every four cycles, layered onto any session. Free for everyone.</p>
+        </div>
+        <div class="card reveal">
+          <h3>Ambient sounds</h3>
+          <p>Rain, waves, forest, fire, wind, coffee shop, thunder and night, mixed under the session at whatever volume you like. Three are free.</p>
+        </div>
+        <div class="card reveal">
+          <h3>Binaural audio</h3>
+          <p>Optional. Two slightly different frequencies, one per ear, that your brain resolves into a third perceived tone. Some people find it helps them settle in; it needs headphones, and the rest of the app works fine without it.</p>
+        </div>
+        <div class="card reveal">
+          <h3>Works offline</h3>
+          <p>Audio ships with the app, your plan and stats live on your device, and reminders are local notifications. No connection needed to study.</p>
         </div>
       </div>
     </section>
 
     <section class="container-sm">
-      <h2>The mechanism behind it</h2>
-      <p>Each ear receives a slightly different frequency through your headphones, for example 100 Hz in the left ear, 108 Hz in the right. Your brain can't reconcile the two directly, so it constructs a third, perceived tone from the 8 Hz gap between them. Sustained exposure nudges your brainwaves toward that rhythm, a state suited to studying or relaxing. It isn't a metaphor; it's how the auditory system processes phase difference between two ears.</p>
+      <h2>Free and Premium</h2>
+      <p>The planning side of Vitae is not the paid side. The study planner, Exam Mode, the Pomodoro timer and unlimited subjects are free for everyone, on purpose.</p>
+      <ul class="feature-list">
+        <li><strong>Free</strong> planner, exam mode, subjects, Pomodoro, three guided sessions, two custom sessions, three ambient sounds, streak and weekly goal</li>
+        <li><strong>Premium</strong> full guided session library, unlimited custom sessions, every ambient sound, the two premium themes, detailed progress statistics</li>
+        <li><strong>One-time purchase</strong> for lifetime access, no subscription, no ads</li>
+      </ul>
     </section>
 
     <section class="container-sm">
       <h2>Frequently Asked Questions</h2>
       <div class="faq-list">
         <details class="faq-item">
-          <summary>What are binaural beats?</summary>
-          <p>Binaural beats happen when you listen to two slightly different frequencies, one in each ear, through headphones. Your brain perceives a third tone from the difference between them. That perceived tone is the binaural beat.</p>
+          <summary>How does Vitae decide what to recommend?</summary>
+          <p>It follows a fixed set of rules, in order of priority: an exam coming up in the next ten days that still has hours left against its target, then a study block you planned for today that hasn't started, then your weekly session goal if you're behind, then the subject you've studied least this week, then your usual study habit. The card always shows which rule it used, so you can see the reasoning rather than trust it blindly.</p>
         </details>
         <details class="faq-item">
-          <summary>Do binaural beats actually work?</summary>
-          <p>Binaural beats work as part of a focus routine for many people, similar to how ambient noise or music helps concentration. Research findings vary by study design, and we don't claim they're a medical treatment for any condition. What we do claim: a consistent pre-study ritual, structured sessions, and a distraction-free environment measurably help people start and stay focused.</p>
+          <summary>Does Vitae use AI?</summary>
+          <p>No. Nothing is sent to a model and nothing is predicted. The recommendation is a short list of rules applied to data you entered yourself: your subjects, your exams, your availability and your session history. That is also why it works with no connection.</p>
         </details>
         <details class="faq-item">
-          <summary>Do I need headphones for binaural beats to work?</summary>
-          <p>Yes. Binaural beats rely on each ear receiving a different frequency. Without headphones, both ears hear the same mixed signal and the effect does not occur.</p>
+          <summary>Do I have to plan my whole week by hand?</summary>
+          <p>No. During setup you pick your subjects, add any exams, select the days and time range when you can study, and choose a usual session length. Vitae places study blocks in your week from that. You can edit, move or delete any block afterwards, add blocks manually, or regenerate the week.</p>
         </details>
         <details class="faq-item">
-          <summary>What's the difference between alpha and theta waves in Vitae?</summary>
-          <p>Alpha frequencies are generally associated with a calm, alert state, useful for steady focus and routine work. Theta frequencies are associated with a deeper, more relaxed state, often used for extended study sessions or memory focused work. Vitae lets you choose based on what you are doing.</p>
+          <summary>How does Exam Mode work?</summary>
+          <p>You add an exam with its date, a subject and a target number of study hours. Vitae then shows days remaining, hours studied so far, hours left and the daily target needed to reach your goal. Exams within ten days take priority in the session recommendation.</p>
         </details>
         <details class="faq-item">
-          <summary>How long should I listen in one session?</summary>
-          <p>There is no fixed rule. Many users listen for the length of a study or work session, often paired with the built in Pomodoro timer, anywhere from 25 minutes to a couple of hours.</p>
+          <summary>Is the planner behind the paywall?</summary>
+          <p>No. The study planner, Exam Mode, the Pomodoro timer and unlimited subjects are free for everyone. Premium is about the session library and the audio around it, not about the planning.</p>
         </details>
         <details class="faq-item">
-          <summary>Can binaural beats help with ADHD or trouble focusing?</summary>
-          <p>Some people with attention difficulties report that binaural beats or similar background audio help them settle into a task. This is anecdotal rather than a clinical claim. Vitae is not a medical device and does not treat ADHD or any other condition.</p>
+          <summary>What does Premium unlock?</summary>
+          <p>The full guided session library (three sessions are free), unlimited custom sessions (two are free), every ambient sound (the first three are free), the two premium themes, and the detailed progress statistics. It is a single one-time purchase for lifetime access, not a subscription.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Do I need headphones?</summary>
+          <p>Only for the binaural layer, which relies on each ear receiving a slightly different frequency. The planner, the sessions, the Pomodoro timer and the ambient sounds all work on a speaker.</p>
         </details>
         <details class="faq-item">
           <summary>Does Vitae work without an internet connection?</summary>
-          <p>Yes. All audio is generated and stored locally on your device once the app is installed. No connection is required to use it.</p>
+          <p>Yes. Audio is bundled with the app, your plan and statistics are stored on your device, and session reminders are local notifications. A connection is only needed to buy or restore Premium, and to send anonymous usage analytics.</p>
         </details>
         <details class="faq-item">
-          <summary>Is Vitae safe to use every day?</summary>
-          <p>Binaural beats through headphones at a reasonable, comfortable volume are generally considered safe for daily use. As with any headphone use, avoid high volumes for extended periods.</p>
+          <summary>What languages does Vitae support?</summary>
+          <p>English and French. You can switch language in Settings and the change applies immediately.</p>
         </details>
       </div>
     </section>
@@ -312,24 +369,23 @@
     <section class="container-sm">
       <h2>Who it's for</h2>
       <ul class="feature-list">
-        <li><strong>Students</strong> preparing for exams or working through difficult assignments</li>
-        <li><strong>Professionals</strong> doing deep work: writing, coding, design</li>
-        <li><strong>ADHD and neurodivergent users</strong> looking to quiet mental noise during focused tasks</li>
-        <li><strong>Anyone</strong> who wants a repeatable way into concentration</li>
+        <li><strong>Students with exams on the calendar</strong> who need their revision spread across the weeks that are left</li>
+        <li><strong>Anyone juggling several subjects</strong> and losing time deciding which one comes first</li>
+        <li><strong>People who start well and drift</strong> after two weeks, and want a weekly goal and a streak to hold the rhythm</li>
+        <li><strong>Anyone who works better with structure</strong> around a session: a timer, a sound, a clear end</li>
       </ul>
 
       <h2 class="mt-8">Why Vitae</h2>
       <ul class="feature-list">
-        <li>One-time purchase for lifetime access, no subscription</li>
-        <li>No ads and no tracking inside the app</li>
+        <li>Planning and exam tracking are free, not a paywalled hook</li>
+        <li>One-time purchase for Premium, no subscription, no ads</li>
+        <li>No account to create, and your plan stays on your device</li>
+        <li>Every recommendation shows its reason, so nothing is a black box</li>
         <li>Available in English and French</li>
-        <li>Requires headphones, since binaural beats depend on stereo separation</li>
-        <li>About 50 MB, loads instantly</li>
       </ul>
 
       <div class="text-center mt-8">
-        <p>Rated 5.0 on the App Store.</p>
-        <a href="https://apps.apple.com/us/app/binaural-beats-study-sounds/id6752669220" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Download Vitae</a>
+        <a href="https://apps.apple.com/app/id6752669220" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Download Vitae</a>
       </div>
     </section>
 
@@ -351,7 +407,7 @@
       <div class="footer-section">
         <h4>Vitae</h4>
         <ul>
-          <li><a href="https://apps.apple.com/us/app/binaural-beats-study-sounds/id6752669220" target="_blank" rel="noopener noreferrer">App Store</a></li>
+          <li><a href="https://apps.apple.com/app/id6752669220" target="_blank" rel="noopener noreferrer">App Store</a></li>
           <li><a href="https://weissgerber.netlify.app/apps/vitae/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
         </ul>
       </div>

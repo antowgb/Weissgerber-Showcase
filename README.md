@@ -1,34 +1,39 @@
 # Weissgerber Showcase
 
-Three iOS apps built to actually get out of your way. No accounts to create, no subscriptions forced on you, no tracking running in the background. Just tools that do one thing well.
+Three iOS apps built to actually get out of your way. No accounts to create, no subscriptions forced on you, no ads. Just tools that do one thing well.
 
 Website: [weissgerber.netlify.app](https://weissgerber.netlify.app)
 
-## Vitae, Binaural Beats
+## Vitae, Study Planner & Focus Sessions
 
-[Preview](https://weissgerber.netlify.app/apps/vitae) · [Download on the App Store](https://apps.apple.com/us/app/binaural-beats-study-sounds/id6752669220)
+[Preview](https://weissgerber.netlify.app/apps/vitae) · [Download on the App Store](https://apps.apple.com/app/id6752669220)
 
-Can't focus? Vitae uses binaural beats, two slightly different tones played in each ear, to gently guide your brain into a calmer or more concentrated state. Pick alpha for steady focus or theta for deep study, layer in some rain or lo-fi in the background, set the built in Pomodoro timer, and get to work.
+The hard part of studying isn't the studying, it's deciding what to study. Vitae takes your subjects, your exams and the hours you're actually free, builds a study week out of them, and then opens on a single recommended session with the reason written underneath: an exam in six days, a block you planned for 14:00, a subject you haven't touched all week. Press start and it runs the session for you, with a Pomodoro timer, ambient sound, and binaural audio if you want it.
+
+No AI, no prediction. The recommendation is a fixed order of rules applied to data you entered yourself, which is why the app can explain every choice and why it works with no connection.
 
 <p align="center">
-  <img src="assets/img/screenshots/vitae-screenshot-1.png" width="200" alt="Vitae session screen with alpha wave selection and Pomodoro timer">
-  <img src="assets/img/screenshots/vitae-screenshot-2.png" width="200" alt="Vitae ambient sound picker with rain, lo-fi and library options">
-  <img src="assets/img/screenshots/vitae-screenshot-3.png" width="200" alt="Vitae stats screen showing streaks and total focus minutes">
-  <img src="assets/img/screenshots/vitae-screenshot-4.png" width="200" alt="Vitae custom preset editor">
+  <img src="assets/img/screenshots/vitae-screenshot-1.png" width="200" alt="Vitae home screen recommending a Mathematics session because an exam is in 6 days">
+  <img src="assets/img/screenshots/vitae-screenshot-2.png" width="200" alt="Vitae Exam Mode with days left, hours studied and the daily target per exam">
+  <img src="assets/img/screenshots/vitae-screenshot-3.png" width="200" alt="Vitae session library with exam, daily and recovery sessions">
+  <img src="assets/img/screenshots/vitae-screenshot-4.png" width="200" alt="Vitae weekly planner showing a day of study blocks">
 </p>
 
 **Features**
-- Alpha and theta binaural beat sessions, for steady focus or deep study and memory work
-- Ambient soundscapes layered on top: rain, lo-fi, library noise, nature
-- Built in Pomodoro timer with customizable work and break intervals
-- Custom presets you can save and reuse
-- Streaks and session stats to track your focus habit over time
-- Fully offline once downloaded, no streaming, no connection needed mid session
+- Study planner: a weekly schedule of editable study blocks, built from your availability
+- Exam mode: exam dates, target hours, days left, and the daily target to stay on track
+- A recommended session on the home screen, with the rule it came from shown alongside it
+- Guided multi-step focus sessions for study, exam prep and recovery between blocks
+- Pomodoro timer, alternating focus blocks and breaks with a longer break every four cycles
+- Ambient sounds and optional binaural audio layered under the session
+- Subjects, per-subject progress, weekly goal and streaks
+- Fully offline: audio ships with the app, your plan and stats stay on your device
 
 **Why it stands out**
-- One time purchase, no subscription, no ads
+- Planning, exam tracking, Pomodoro and unlimited subjects are free, not paywalled
+- Premium is a one-time purchase for lifetime access: full session library, all ambient sounds, premium themes, detailed statistics
+- No account, no ads, no subscription
 - Available in English and French
-- Lightweight and fast, nothing bloated
 
 ## TravelBudget, Money Manager
 
