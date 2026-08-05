@@ -16,15 +16,70 @@
   status = 301
   force = true
 
-# Clean URLs without .html extensions
+# Legacy public URLs
+[[redirects]]
+  from = "/apropos"
+  to = "/about"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/apps/vitae"
+  to = "/products/vitae"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/apps/vitae/privacy"
+  to = "/products/vitae/privacy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/apps/travelbudget"
+  to = "/products/travelbudget"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/apps/travelbudget/privacy"
+  to = "/products/travelbudget/privacy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/apps/forma"
+  to = "/products/forma"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/apps/forma/privacy"
+  to = "/products/forma/privacy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/best-study-apps"
+  to = "/guides/study-planning/best-study-apps"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/vitae-vs-brain-fm"
+  to = "/guides/study-planning/vitae-vs-brain-fm"
+  status = 301
+  force = true
+
+# Canonical clean URLs
 [[redirects]]
   from = "/"
   to = "/index.html"
   status = 200
 
 [[redirects]]
-  from = "/apropos"
-  to = "/apropos.html"
+  from = "/about"
+  to = "/about.html"
   status = 200
 
 [[redirects]]
@@ -33,33 +88,58 @@
   status = 200
 
 [[redirects]]
-  from = "/apps/vitae"
-  to = "/apps/vitae.html"
+  from = "/products"
+  to = "/products/index.html"
   status = 200
 
 [[redirects]]
-  from = "/apps/vitae/privacy"
-  to = "/apps/vitae-privacy.html"
+  from = "/products/vitae"
+  to = "/products/vitae/index.html"
   status = 200
 
 [[redirects]]
-  from = "/best-study-apps"
-  to = "/apps/vitae-best-study-apps.html"
+  from = "/products/vitae/privacy"
+  to = "/products/vitae/privacy.html"
   status = 200
 
 [[redirects]]
-  from = "/vitae-vs-brain-fm"
-  to = "/apps/vitae-vs-brain-fm.html"
+  from = "/products/travelbudget"
+  to = "/products/travelbudget/index.html"
   status = 200
 
 [[redirects]]
-  from = "/apps/travelbudget"
-  to = "/apps/travelbudget.html"
+  from = "/products/travelbudget/privacy"
+  to = "/products/travelbudget/privacy.html"
   status = 200
 
 [[redirects]]
-  from = "/apps/forma"
-  to = "/apps/forma.html"
+  from = "/products/forma"
+  to = "/products/forma/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/products/forma/privacy"
+  to = "/products/forma/privacy.html"
+  status = 200
+
+[[redirects]]
+  from = "/products/moatcheck"
+  to = "/products/moatcheck/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/products/moatcheck/methodology"
+  to = "/products/moatcheck/methodology.html"
+  status = 200
+
+[[redirects]]
+  from = "/guides/study-planning/best-study-apps"
+  to = "/guides/study-planning/best-study-apps.html"
+  status = 200
+
+[[redirects]]
+  from = "/guides/study-planning/vitae-vs-brain-fm"
+  to = "/guides/study-planning/vitae-vs-brain-fm.html"
   status = 200
 
 # Cache headers for static assets
