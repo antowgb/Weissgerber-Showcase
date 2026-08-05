@@ -2,6 +2,20 @@
   publish = "."
   command = "echo 'Static site - no build needed'"
 
+# Domain redirects — must come before the clean-URL rules below so they win
+# first (Netlify evaluates redirects top to bottom, first match applies).
+[[redirects]]
+  from = "https://www.weissgerber.dev/*"
+  to = "https://weissgerber.dev/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://weissgerber.netlify.app/*"
+  to = "https://weissgerber.dev/:splat"
+  status = 301
+  force = true
+
 # Clean URLs without .html extensions
 [[redirects]]
   from = "/"

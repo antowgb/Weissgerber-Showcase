@@ -13,5 +13,5 @@
   <rect x="645" y="210" width="24" height="80" rx="4" fill="#F91919" opacity="0.85"/>
   <text x="600" y="400" font-family="Georgia,serif" font-size="56" font-weight="700" fill="#1C1C1A" text-anchor="middle">Forma</text>
   <text x="600" y="450" font-family="-apple-system,sans-serif" font-size="28" fill="#5C5C56" text-anchor="middle">Muscle Recovery Tracker</text>
-  <text x="600" y="560" font-family="-apple-system,sans-serif" font-size="20" fill="#8A8578" text-anchor="middle" letter-spacing="1">weissgerber.netlify.app/apps/forma</text>
+  <text x="600" y="560" font-family="-apple-system,sans-serif" font-size="20" fill="#8A8578" text-anchor="middle" letter-spacing="1">weissgerber.dev/apps/forma</text>
 </svg>

@@ -11,5 +11,5 @@
   <path d="M600 200v80M574 218h36a12 12 0 010 24h-24a12 12 0 000 24h36" fill="none" stroke="#007AFF" stroke-width="4" stroke-linecap="round"/>
   <text x="600" y="400" font-family="Georgia,serif" font-size="56" font-weight="700" fill="#1C1C1A" text-anchor="middle">TravelBudget</text>
   <text x="600" y="450" font-family="-apple-system,sans-serif" font-size="28" fill="#5C5C56" text-anchor="middle">Money Manager for Any Currency</text>
-  <text x="600" y="560" font-family="-apple-system,sans-serif" font-size="20" fill="#8A8578" text-anchor="middle" letter-spacing="1">weissgerber.netlify.app/apps/travelbudget</text>
+  <text x="600" y="560" font-family="-apple-system,sans-serif" font-size="20" fill="#8A8578" text-anchor="middle" letter-spacing="1">weissgerber.dev/apps/travelbudget</text>
 </svg>

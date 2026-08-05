@@ -2,11 +2,11 @@
 
 Three iOS apps built to actually get out of your way. No accounts to create, no subscriptions forced on you, no ads. Just tools that do one thing well.
 
-Website: [weissgerber.netlify.app](https://weissgerber.netlify.app)
+Website: [weissgerber.dev](https://weissgerber.dev)
 
 ## Vitae, Study Planner & Focus Sessions
 
-[Preview](https://weissgerber.netlify.app/apps/vitae) · [Download on the App Store](https://apps.apple.com/app/id6752669220)
+[Preview](https://weissgerber.dev/apps/vitae) · [Download on the App Store](https://apps.apple.com/app/id6752669220)
 
 The hard part of studying isn't the studying, it's deciding what to study. Vitae takes your subjects, your exams and the hours you're actually free, builds a study week out of them, and then opens on a single recommended session with the reason written underneath: an exam in six days, a block you planned for 14:00, a subject you haven't touched all week. Press start and it runs the session for you, with a Pomodoro timer, ambient sound, and binaural audio if you want it.
 
@@ -37,7 +37,7 @@ No AI, no prediction. The recommendation is a fixed order of rules applied to da
 
 ## TravelBudget, Money Manager
 
-[Preview](https://weissgerber.netlify.app/apps/travelbudget) · [Download on the App Store](https://apps.apple.com/us/app/travelbudget-money-manager/id6758573416)
+[Preview](https://weissgerber.dev/apps/travelbudget) · [Download on the App Store](https://apps.apple.com/us/app/travelbudget-money-manager/id6758573416)
 
 Traveling across three countries and three currencies shouldn't mean losing track of your money. TravelBudget converts every expense automatically, keeps a running total against your budget, and works entirely offline so a bad connection abroad never gets in your way.
 
@@ -63,7 +63,7 @@ Traveling across three countries and three currencies shouldn't mean losing trac
 
 ## Forma, Muscle Recovery Tracker
 
-[Preview](https://weissgerber.netlify.app/apps/forma) · [Download on the App Store](https://apps.apple.com/us/app/muscle-recovery-tracker/id6755316806)
+[Preview](https://weissgerber.dev/apps/forma) · [Download on the App Store](https://apps.apple.com/us/app/muscle-recovery-tracker/id6755316806)
 
 Stop guessing which muscles are actually ready to train. Forma tracks your real recovery per muscle group and builds today's workout around it, if your chest is still sore, it'll point you toward legs instead of forcing a rigid plan.
 
