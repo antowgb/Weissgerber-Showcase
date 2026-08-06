@@ -66,4 +66,15 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url><loc>https://weissgerber.dev/guides</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://weissgerber.dev/private-work</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://weissgerber.dev/guides/travel-money/how-to-budget-a-trip</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://weissgerber.dev/guides/fitness-recovery/how-long-do-muscles-take-to-recover</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://weissgerber.dev/guides/investment-research/what-is-an-economic-moat</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://weissgerber.dev/guides/study-planning/how-to-plan-a-study-week</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://weissgerber.dev/guides/study-planning/best-offline-study-apps</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://weissgerber.dev/guides/travel-money/how-to-track-expenses-while-traveling</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://weissgerber.dev/guides/fitness-recovery/how-to-train-when-sore</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://weissgerber.dev/guides/investment-research/how-to-analyze-a-company</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://weissgerber.dev/guides/investment-research/pricing-power-explained</loc><lastmod>2026-08-06</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>
