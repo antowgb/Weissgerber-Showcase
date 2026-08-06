@@ -58,12 +58,14 @@ img, svg {
   --space-4: 1.5rem;
   --space-5: 2rem;
   --space-6: 3rem;
-  --space-7: 4rem;
-  --space-8: 6rem;
+  --space-7: 3.5rem;
+  --space-8: 5rem;
 
-  --radius-sm: 0.25rem;
-  --radius-md: 0.25rem;
-  --radius-lg: 0.3rem;
+  --radius-xs: 0.375rem;
+  --radius-sm: 0.625rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.375rem;
+  --radius-pill: 999px;
 
   --ease: cubic-bezier(0.4, 0, 0.2, 1);
   --duration-fast: 120ms;
@@ -217,7 +219,7 @@ textarea:focus-visible {
 }
 
 section {
-  padding: var(--space-7) 0;
+  padding: 3rem 0;
 }
 
 /* ==========================================================================
@@ -396,7 +398,7 @@ nav.main-nav {
    ========================================================================== */
 
 .hero {
-  padding: var(--space-8) 0 var(--space-7);
+  padding: var(--space-8) 0 3.5rem;
   position: relative;
   overflow: hidden;
 }
@@ -460,7 +462,7 @@ nav.main-nav {
 
 .grid {
   display: grid;
-  gap: var(--space-6);
+  gap: var(--space-5);
 }
 
 /* Fixed column counts keep each card row visually balanced. */
@@ -540,16 +542,52 @@ nav.main-nav {
   text-decoration: none;
   color: inherit;
   border-radius: var(--radius-md);
-  padding: var(--space-5);
+  padding: 0;
   border: 1px solid;
   box-shadow: var(--shadow-sm);
-  transition: transform var(--duration-base) var(--ease), box-shadow var(--duration-base) var(--ease);
+  overflow: hidden;
+  transition: transform var(--duration-base) var(--ease), border-color var(--duration-base) var(--ease), box-shadow var(--duration-base) var(--ease);
 }
 
 .app-card:hover {
-  transform: translateY(-1px);
+  transform: translateY(-3px);
   opacity: 1;
   box-shadow: var(--shadow-lg);
+}
+
+.app-card-visual {
+  min-height: 148px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--space-5) var(--space-5) 0;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.38);
+}
+
+.app-card-visual img {
+  width: min(100%, 170px);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  box-shadow: 0 10px 24px rgba(28, 28, 26, 0.14);
+  transform: translateY(18px);
+}
+
+.app-card-visual .app-card-icon {
+  width: 76px;
+  height: 76px;
+  margin: 0 0 24px;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 8px 20px rgba(28, 28, 26, 0.12);
+  transform: none;
+}
+
+.app-card-content {
+  display: block;
+  padding: var(--space-5);
+}
+
+.product-group + .product-group {
+  padding-top: 0;
 }
 
 .app-card[data-theme="vitae"] {
@@ -593,7 +631,7 @@ nav.main-nav {
 }
 
 .app-card-icon.is-real {
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-lg);
   box-shadow: var(--shadow-sm);
 }
 
@@ -610,7 +648,7 @@ nav.main-nav {
   letter-spacing: 0.05em;
   padding: var(--space-1) var(--space-2);
   background-color: var(--surface);
-  border-radius: var(--radius-xs);
+  border-radius: var(--radius-pill);
   color: var(--text-secondary);
   margin-bottom: var(--space-2);
 }
@@ -698,7 +736,7 @@ nav.main-nav {
   font-size: var(--text-xs);
   padding: var(--space-1) var(--space-3);
   border: 1px solid var(--border);
-  border-radius: 2px;
+  border-radius: var(--radius-pill);
   color: var(--text-secondary);
 }
 
@@ -791,7 +829,7 @@ nav.main-nav {
 
 .manifesto {
   text-align: center;
-  padding: var(--space-8) 0;
+  padding: var(--space-7) 0;
 }
 
 .manifesto-line {
@@ -972,8 +1010,8 @@ textarea {
 .text-center { text-align: center; }
 
 .mt-6 { margin-top: var(--space-6); }
-.mt-8 { margin-top: var(--space-8); }
-.stack-6 { display: grid; gap: var(--space-6); margin-top: var(--space-6); }
+.mt-8 { margin-top: var(--space-7); }
+.stack-6 { display: grid; gap: var(--space-5); margin-top: var(--space-5); }
 
 /* ==========================================================================
    FAQ
