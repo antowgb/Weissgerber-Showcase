@@ -475,13 +475,11 @@ nav.main-nav {
   border-radius: var(--radius-md);
   padding: var(--space-5);
   box-shadow: var(--shadow-sm);
-  transition: transform var(--duration-base) var(--ease), border-color var(--duration-base) var(--ease), box-shadow var(--duration-base) var(--ease);
+  transition: border-color var(--duration-base) var(--ease);
 }
 
 .card:hover {
-  transform: translateY(-1px);
   border-color: var(--accent);
-  box-shadow: var(--shadow-md);
 }
 
 .card h3 {
@@ -512,12 +510,6 @@ nav.main-nav {
   border-radius: var(--radius-lg);
   border: 1px solid var(--border);
   box-shadow: var(--shadow-sm);
-  transition: transform var(--duration-base) var(--ease), box-shadow var(--duration-base) var(--ease);
-}
-
-.screenshot-gallery img:hover {
-  transform: translateY(-3px);
-  box-shadow: var(--shadow-md);
 }
 
 @media (min-width: 769px) {
@@ -546,13 +538,11 @@ nav.main-nav {
   border: 1px solid;
   box-shadow: var(--shadow-sm);
   overflow: hidden;
-  transition: transform var(--duration-base) var(--ease), border-color var(--duration-base) var(--ease), box-shadow var(--duration-base) var(--ease);
+  transition: border-color var(--duration-base) var(--ease);
 }
 
 .app-card:hover {
-  transform: translateY(-3px);
   opacity: 1;
-  box-shadow: var(--shadow-lg);
 }
 
 .app-card-visual {
@@ -860,22 +850,6 @@ nav.main-nav {
 /* ==========================================================================
    Scroll reveal
    ========================================================================== */
-
-.reveal {
-  opacity: 0;
-  transition: opacity 200ms var(--ease);
-}
-
-.reveal.is-visible {
-  opacity: 1;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .reveal {
-    opacity: 1;
-    transition: none;
-  }
-}
 
 /* ==========================================================================
    Footer
