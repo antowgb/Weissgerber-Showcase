@@ -42,10 +42,10 @@ No AI, no prediction. The recommendation is a fixed order of rules applied to da
 Traveling across three countries and three currencies shouldn't mean losing track of your money. TravelBudget converts every expense automatically, keeps a running total against your budget, and works entirely offline so a bad connection abroad never gets in your way.
 
 <p align="center">
-  <img src="assets/img/screenshots/travelbudget-screenshot-1.png" width="200" alt="TravelBudget dashboard showing remaining trip budget">
-  <img src="assets/img/screenshots/travelbudget-screenshot-2.png" width="200" alt="TravelBudget expense entry screen with currency conversion">
-  <img src="assets/img/screenshots/travelbudget-screenshot-3.png" width="200" alt="TravelBudget analytics screen with spending by category">
-  <img src="assets/img/screenshots/travelbudget-screenshot-4.png" width="200" alt="TravelBudget trip templates screen">
+  <img src="assets/img/screenshots/travelbudget-screenshot-1.png?v=20260726" width="200" alt="TravelBudget dashboard showing remaining trip budget">
+  <img src="assets/img/screenshots/travelbudget-screenshot-2.png?v=20260726" width="200" alt="TravelBudget expense entry screen with currency conversion">
+  <img src="assets/img/screenshots/travelbudget-screenshot-3.png?v=20260726" width="200" alt="TravelBudget analytics screen with spending by category">
+  <img src="assets/img/screenshots/travelbudget-screenshot-4.png?v=20260726" width="200" alt="TravelBudget trip templates screen">
 </p>
 
 **Features**
@@ -68,10 +68,10 @@ Traveling across three countries and three currencies shouldn't mean losing trac
 Stop guessing which muscles are actually ready to train. Forma tracks your real recovery per muscle group and builds today's workout around it, if your chest is still sore, it'll point you toward legs instead of forcing a rigid plan.
 
 <p align="center">
-  <img src="assets/img/screenshots/forma-screenshot-1.png" width="200" alt="Forma home screen with today's generated workout">
-  <img src="assets/img/screenshots/forma-screenshot-2.png" width="200" alt="Forma muscle recovery gauges by muscle group">
-  <img src="assets/img/screenshots/forma-screenshot-3.png" width="200" alt="Forma exercise catalog filtered by available equipment">
-  <img src="assets/img/screenshots/forma-screenshot-4.png" width="200" alt="Forma workout history screen">
+  <img src="assets/img/screenshots/forma-screenshot-1.png?v=20260726" width="200" alt="Forma home screen with today's generated workout">
+  <img src="assets/img/screenshots/forma-screenshot-2.png?v=20260726" width="200" alt="Forma muscle recovery gauges by muscle group">
+  <img src="assets/img/screenshots/forma-screenshot-3.png?v=20260726" width="200" alt="Forma exercise catalog filtered by available equipment">
+  <img src="assets/img/screenshots/forma-screenshot-4.png?v=20260726" width="200" alt="Forma workout history screen">
 </p>
 
 **Features**
