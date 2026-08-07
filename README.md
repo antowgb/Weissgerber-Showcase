@@ -13,10 +13,10 @@ The hard part of studying isn't the studying, it's deciding what to study. Vitae
 No AI, no prediction. The recommendation is a fixed order of rules applied to data you entered yourself, which is why the app can explain every choice and why it works with no connection.
 
 <p align="center">
-  <img src="assets/img/screenshots/vitae-screenshot-1.png" width="200" alt="Vitae home screen recommending a Mathematics session because an exam is in 6 days">
-  <img src="assets/img/screenshots/vitae-screenshot-2.png" width="200" alt="Vitae Exam Mode with days left, hours studied and the daily target per exam">
-  <img src="assets/img/screenshots/vitae-screenshot-3.png" width="200" alt="Vitae session library with exam, daily and recovery sessions">
-  <img src="assets/img/screenshots/vitae-screenshot-4.png" width="200" alt="Vitae weekly planner showing a day of study blocks">
+  <img src="assets/img/screenshots/vitae-screenshot-1.png?v=20260804" width="200" alt="Vitae home screen recommending a Mathematics session because an exam is in 6 days">
+  <img src="assets/img/screenshots/vitae-screenshot-2.png?v=20260804" width="200" alt="Vitae Exam Mode with days left, hours studied and the daily target per exam">
+  <img src="assets/img/screenshots/vitae-screenshot-3.png?v=20260804" width="200" alt="Vitae session library with exam, daily and recovery sessions">
+  <img src="assets/img/screenshots/vitae-screenshot-4.png?v=20260804" width="200" alt="Vitae weekly planner showing a day of study blocks">
 </p>
 
 **Features**
